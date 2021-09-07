@@ -1,0 +1,6 @@
+.idea/
+.idea
+plugins/__pycache__
+errbot.log
+plugins/err-prod/__pycache__
+.env
