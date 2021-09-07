@@ -4,3 +4,5 @@ plugins/__pycache__
 errbot.log
 plugins/err-prod/__pycache__
 .env
+plugins/err-prod/ca.crt
+__pycache__/
