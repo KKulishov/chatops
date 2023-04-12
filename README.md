@@ -37,7 +37,7 @@ export K8S_API_URL_PROD="ip api server"
 export KUBER_TOKEN_VIEWER="token kubernetes" 
 ```
 !!! Описать создания учетки 
-тут могу отметить что данному аккаунту иы предоставляем заранее созданную роль view, который имеет права только на просмотр, но все зависит от Ваших требований и реализаций.  
+тут могу отметить что данному аккаунту и предоставляем заранее созданную роль view, который имеет права только на просмотр, но все зависит от Ваших требований и реализаций.  
 ```
 kubectl create serviceaccount chatbot
 kubectl create clusterrolebinding chatbot-cluster-view --clusterrole=view --serviceaccount=default:chatbot
